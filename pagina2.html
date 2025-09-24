@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — Matheus</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Contato</h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="pagina1.html">Formação & Projetos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Fale comigo</h2>
+      <!-- formulário simples (sem backend) -->
+      <form action="#" method="post"
+        onsubmit="alert('Formulário de exemplo — configure backend se necessário'); return false;">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="seu@exemplo.com" required />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+
+        <button type="submit">Enviar (exemplo)</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h3>Redes</h3>
+      <ul>
+        <li>
+          LinkedIn -
+          <a href="https://www.linkedin.com/in/matheus-fonte-gon%C3%A7alves-46b35432a/" target="_blank">
+            Matheus Fonte Gonçalves
+          </a>
+        </li>
+        <li>
+          GitHub -
+          <a href="https://github.com/Matheusfonte" target="_blank">
+            matheusfonte
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="ano3"></span> Matheus — Contato</p>
+    </div>
+  </footer>
+
+</html>

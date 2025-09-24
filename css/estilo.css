@@ -1,0 +1,106 @@
+/* Layout geral */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg, #fafafa 0%, #f0f0f0 100%);
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+
+video {
+  transform: rotate(3,5deg);         /* gira o vídeo junto com os controles */
+}
+/* container central */
+.container {
+  width: min(1100px, 94%);
+  margin: 1.2rem auto;
+}
+
+/* header */
+.site-header {
+  background: #222;
+  color: white;
+  padding: 0.8rem 0;
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header h1 { font-size: 1.25rem; }
+.site-header nav a {
+  color: #eee;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.site-header nav a:hover { text-decoration: underline; }
+
+/* cards para seções */
+.card {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* imagens de perfil e figuras */
+.perfil img {
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  float: left;
+  margin-right: 1rem;
+}
+.imagens-hobby img {
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  float: left;
+  margin-right: 1rem;
+}
+
+/* tabelas responsivas simples */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+table caption { font-weight: 700; margin-bottom: 0.5rem; }
+
+/* formulário */
+form {
+  display: grid;
+  gap: 0.6rem;
+}
+input, textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+button {
+  background: var(--accent);
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+button:hover { opacity: 0.95; }
+
+/* footer */
+.site-footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #444;
+  margin-top: 1rem;
+}
+
